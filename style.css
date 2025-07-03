@@ -1,0 +1,73 @@
+#topbar {
+    text-align: center;
+    border-bottom: 1px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#infocontainer {
+    border-bottom: 1px solid black;
+    padding: 5px;         /*padding :içerik ile border arasında, margin: kutu diğer kutular ile*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.title {
+    white-space: nowrap;   /*tek satırda kalsın diye*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    width: 100%;
+    object-fit: contain;
+    max-width: 100%;
+    padding-right: 40px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.header {
+    text-align: center;
+    margin: 20;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.image {
+    align-items: center;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    max-height: 250px;
+    margin: 10;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-width: 100%;
+    background: linear-gradient(rgb(255, 255, 255), rgb(110, 152, 218));
+}
